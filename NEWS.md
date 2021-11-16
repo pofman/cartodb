@@ -17,20 +17,24 @@ Development
 * Upgrade to CARTO Viewer v1.0.8 [16347](https://github.com/CartoDB/cartodb/pull/16347)
 * Show user's database location in profile [16349](https://github.com/CartoDB/cartodb/pull/16349)
 * Setting to enable/disable import notifications [16354](https://github.com/CartoDB/cartodb/pull/16354)
+* Setting to enable/disable random username generation on SAML authentication process [16372](https://github.com/CartoDB/cartodb/pull/16372)
 
 ### Bug fixes / enhancements
 - Add marginTop to Page when notification is displayed [#16355](https://github.com/CartoDB/cartodb/pull/16355)
 - Add "element" param to DO-Catalog entry function [#16343](https://github.com/CartoDB/cartodb/pull/16343)
 - Add new DO Catalog route for internal usage [#16342](https://github.com/CartoDB/cartodb/pull/16342)
+- Improve info for :update_user command  [#16363](https://github.com/CartoDB/cartodb/pull/16363)
 - Disable email validation in DO Premium Subscriptions [#16309](https://github.com/CartoDB/cartodb/pull/16309)
 - Hide sharing tab from viewer in on-premises [#16299](https://github.com/CartoDB/cartodb/pull/16299)
 - Remove all references to Spatial Data Catalog and Kepler GL maps in on-premises [#16293](https://github.com/CartoDB/cartodb/pull/16293)
+- Increase hard-limit of MAX_TABLES_PER_IMPORT [#16374](https://github.com/CartoDB/cartodb/pull/16374)
 - Guard code for vizjson users [#16267](https://github.com/CartoDB/cartodb/pull/16267)
 - Guard code for Users and Visualizations [#16265](https://github.com/CartoDB/cartodb/pull/16265)
 - Use the organization user's data while editing a user from organization settings [#16280](https://github.com/CartoDB/cartodb/pull/16280)
 - Fix schema name in layers created by free users [#16307](https://github.com/CartoDB/cartodb/pull/16307)
 - Limit start parameter of Dropbox connector [#16264](https://github.com/CartoDB/cartodb/pull/16264)
 - Fix messages about layer limit being reached [#16360](https://github.com/CartoDB/cartodb/pull/16360)
+- Fix 404.html page [#16369](https://github.com/CartoDB/cartodb/pull/16369)
 - Fix deck.gl dependency conflicts [#16339](https://github.com/CartoDB/cartodb/pull/16339)
 - Migrate Redis DO subscription information in inter-cloud migrations [#16315](https://github.com/CartoDB/cartodb/pull/16315)
 - OauthApps restricted by default [#16304](https://github.com/CartoDB/cartodb/pull/16304)
@@ -70,6 +74,8 @@ Development
 - Fix Auth URL generation while establishing a connection with Google Drive [#16357](https://github.com/CartoDB/cartodb/pull/16357)
 - Fix adding license metadata to a dataset [#16356](https://github.com/CartoDB/cartodb/pull/16356)
 - Fix notifications when organization seats limit is reached [#16359](https://github.com/CartoDB/cartodb/pull/16359)
+- Fix privacy dropdown when user is editing a map [#16367](https://github.com/CartoDB/cartodb/pull/16367)
+- Add a new rake to update a user username [#16370](https://github.com/CartoDB/cartodb/pull/16370)
 
 4.45.0 (2021-04-14)
 -------------------
